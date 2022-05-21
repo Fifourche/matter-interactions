@@ -38,8 +38,11 @@ Example.gravitation = function() {
     world.gravity.scale = 0
 
     // create circular bodies, with no friction
-    var smallest_body = Bodies.circle(200, 300, 5, {render: {fillStyle: '#f54242'}, friction: 0, frictionAir: 0}),
-        biggest_body = Bodies.circle(400, 300, 50, {render: {fillStyle: '#4287f5'}, friction: 0, frictionAir: 0});
+    var smallest_body = Bodies.circle(200, 300, 20, {render: {sprite: {texture: './examples/assets/death_star.png'}}, friction: 0, frictionAir: 0}),
+        biggest_body = Bodies.circle(400, 300, 47, {render: {sprite: {texture: './examples/assets/alderaan.png'}}, friction: 0, frictionAir: 0});
+
+    smallest_body.mass = 0.08;
+    biggest_body.mass = 8;
 
     // create gravitational interaction
     var Gravitation = MatterInteractions.Classics.createGravitation();
