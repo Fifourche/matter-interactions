@@ -2,7 +2,7 @@
 
 > A plugin to bring two-bodies interactions to [matter.js](https://github.com/liabru/matter-js/).
 
-[![Build Status](https://travis-ci.org/Fifourche/matter-interactions?branch=master)](https://travis-ci.org/Fifourche/matter-interactions)
+[![Build Status](https://api.travis-ci.com/Fifourche/matter-interactions.svg?branch=main)](https://api.travis-ci.com/Fifourche/matter-interactions)
 
 ## Install
 
