@@ -1,6 +1,6 @@
 {
   "name": "matter-interactions",
-  "description": "A plugin to bring two-bodies interactions for matter.js",
+  "description": "A plugin to bring two-bodies interactions to matter.js",
   "version": "0.0.1",
   "main": "build/matter-interactions.js",
   "license": "MIT",
